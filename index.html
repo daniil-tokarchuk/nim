@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="index.js" async></script>
+  <title>Nim</title>
+</head>
+<body>
+  <main class="nim">
+    <h1>The MatchStick Game - also known as 'Nim'</h1>
+    <fieldset class="game-mode">
+      <legend>Game mode</legend>
+      <input type="radio" class="standard" name="mode" checked>
+      <label>Standard</label>
+      <br>
+      <input type="radio" class="computer" name="mode">
+      <label>Computer goes first</label>
+    </fieldset>
+    <h2>Matches: <span class="total">25</span></h2>
+    <div class="score">
+      <h2 class="player">You: <span class="player-score">0</span></h2>
+      <h2>Computer: <span class="computer-score">0</span></h2>
+    </div>
+    <div class="buttons">
+      <button class="first-button">1</button>
+      <button class="second-button">2</button>
+      <button class="third-button">3</button>
+    </div>
+    <h2 class="winner"></h2>
+    <button class="reset-button">Reset</button>
+    <ul>
+      <li>Game starts at 25 matches.</li>
+      <li>Take turns by taking 1, 2, or 3 matches.</li>
+      <li>The one who has an even number at the end of the game - <strong>wins</strong>.</li>
+      <li>Game ends when there are no matches left.</li>
+      <li class="log"></li>
+    </ul>
+  </main>
+</body>
+</html>

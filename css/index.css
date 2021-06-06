@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 5rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+fieldset {
+  margin: 1rem;
+  border: none;
+  box-shadow: 0 0 0.3rem 0.2rem #636363;
+}
+
+legend {
+  background: #000;
+  color: #FFF !important;
+  padding: 0.2rem 0.5rem !important;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.nim {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner {
+  margin: 1rem;
+}
+
+.score {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.score h2 {
+  margin: 1.5rem;
+}
+
+.buttons {
+  margin: 1rem;
+}
+
+.buttons button {
+  width: 4rem;
+  height: 4rem;
+  background: #000;
+  color: #FFF;
+  border: none;
+  font-size: 2rem;
+  border-radius: 20%;
+  transition: all ease .3s;
+  margin: 0.2rem;
+}
+
+.buttons button:hover {
+  border-radius: 50%;
+}
+
+.buttons button:disabled {
+  background: #404040;
+  border-radius: 50%;
+}
+
+.reset-button {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.reset-button.active {
+  display: block;
+}
+
+.log {
+  display: none;
+  margin-top: 1rem;
+}
+
+.log.active {
+  display: block;
+}
