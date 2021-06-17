@@ -1,2 +1,2 @@
-# Stormotion-test-task
+# Nim
 ![screenshot](screenshot.png)
