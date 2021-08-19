@@ -1,2 +1,2 @@
-# Nim
+# nim
 ![screenshot](screenshot.png)
